@@ -11,6 +11,14 @@ get_header();
 // Do not display the front pages sidebar areas when the Page Builder Template is activated
 if ( is_front_page() && ! is_page_template( 'page-templates/page-builder.php' ) ) : ?>
 	<div class="front-page-top-section clearfix">
+		<div class="widget_topmost_area">
+			<?php
+				if ( is_active_sidebar( 'colormag_front_page_topmpst_area' ) ) {
+					if ( ! dynamic_sidebar( 'colormag_front_page_topmost_area' ) ):
+					endif;
+				}
+				?>
+			</div>
 		<div class="widget_slider_area">
 			<?php
 			if ( is_active_sidebar( 'colormag_front_page_slider_area' ) ) {

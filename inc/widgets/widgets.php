@@ -49,6 +49,17 @@ function colormag_widgets_init() {
 		'after_title'   => '</h3>',
 	) );
 
+	// registering the Front Page: Topmost Area Sidebar
+	register_sidebar( array(
+		'name'          => esc_html__( 'Front Page: Topmost Area', 'colormag' ),
+		'id'            => 'colormag_front_page_topmost_area',
+		'description'   => esc_html__( 'Show a full-width widget just below menu.', 'colormag' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s clearfix">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h3 class="widget-title"><span>',
+		'after_title'   => '</span></h3>',
+	) );
+
 	// registering the Front Page: Slider Area Sidebar
 	register_sidebar( array(
 		'name'          => esc_html__( 'Front Page: Slider Area', 'colormag' ),

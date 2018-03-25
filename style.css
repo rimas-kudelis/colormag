@@ -2239,6 +2239,10 @@ a#scroll-up:hover {
 
 /* =FRONT PAGE WIDGET AREAS
 ----------------------------------------------- */
+.widget_topmost_area {
+	padding-bottom: 20px;
+}
+
 .widget_slider_area {
 	float: left;
 	width: 55.26315789%;
