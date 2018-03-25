@@ -423,8 +423,8 @@ function colormag_custom_css() {
 		#masthead.colormag-header-classic .main-navigation ul ul.sub-menu li.current-menu-item,
 		#masthead.colormag-header-classic #site-navigation .menu-toggle,
 		#masthead.colormag-header-classic #site-navigation .menu-toggle:hover,
-		#masthead.colormag-header-classic .main-navigation ul > li:hover > a, 
-        #masthead.colormag-header-classic .main-navigation ul > li.current-menu-item > a, 
+		#masthead.colormag-header-classic .main-navigation ul > li:hover > a,
+        #masthead.colormag-header-classic .main-navigation ul > li.current-menu-item > a,
         #masthead.colormag-header-classic .main-navigation ul > li.current-menu-ancestor > a,
         #masthead.colormag-header-classic .main-navigation ul li.focus > a{ border-color:' . $primary_color . '}
 		.promo-button-area a:hover{border:2px solid ' . $primary_color . ';background-color:' . $primary_color . '}
@@ -574,7 +574,7 @@ if ( ! function_exists( 'colormag_footer_copyright' ) ) :
 
 		$tg_link = '<a href="https://themegrill.com/themes/colormag" target="_blank" title="' . esc_attr__( 'ThemeGrill', 'colormag' ) . '" rel="designer"><span>' . __( 'ThemeGrill', 'colormag' ) . '</span></a>';
 
-		$default_footer_value = sprintf( __( 'Copyright &copy; %1$s %2$s. All rights reserved.', 'colormag' ), date( 'Y' ), $site_link ) . '<br>' . sprintf( __( 'Theme: %1$s by %2$s.', 'colormag' ), 'ColorMag', $tg_link ) . ' ' . sprintf( __( 'Powered by %s.', 'colormag' ), $wp_link );
+		$default_footer_value = sprintf( __( 'Copyright &copy; %1$s %2$s. All rights reserved.', 'colormag' ), date( 'Y' ), $site_link );
 
 		$colormag_footer_copyright = '<div class="copyright">' . $default_footer_value . '</div>';
 		echo $colormag_footer_copyright;
