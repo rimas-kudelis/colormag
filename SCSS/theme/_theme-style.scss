@@ -1322,26 +1322,15 @@ li.default-menu {
 	color: #cccccc;
 }
 
-.tg-footer-main-widget {
-   width: 39.473684%;
-   float: left;
-   margin-right: 2.631579%
-}
-.tg-footer-other-widgets {
-   float: right;
-   width: 57.894737%;
-}
-
-.tg-first-footer-widget {
-}
+.tg-first-footer-widget,
 .tg-second-footer-widget,
 .tg-third-footer-widget {
-   width: 30.303030%;
+   width: 22.5%;
    float: left;
-   margin-right: 4.545454%
+   margin-right: 3.333333%
 }
 .tg-fourth-footer-widget {
-   width: 30.303030%;
+   width: 22.5%;
    float: right;
    margin-right: 0;
 }

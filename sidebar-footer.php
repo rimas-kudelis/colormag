@@ -25,15 +25,12 @@ if( !is_active_sidebar( 'colormag_footer_sidebar_one' ) &&
 <div class="footer-widgets-wrapper">
 	<div class="inner-wrap">
 		<div class="footer-widgets-area clearfix">
-         <div class="tg-footer-main-widget">
    			<div class="tg-first-footer-widget">
    				<?php
    				if ( !dynamic_sidebar( 'colormag_footer_sidebar_one' ) ):
    				endif;
    				?>
    			</div>
-         </div>
-         <div class="tg-footer-other-widgets">
    			<div class="tg-second-footer-widget">
    				<?php
    				if ( !dynamic_sidebar( 'colormag_footer_sidebar_two' ) ):
@@ -52,7 +49,6 @@ if( !is_active_sidebar( 'colormag_footer_sidebar_one' ) &&
                endif;
                ?>
             </div>
-         </div>
 		</div>
 	</div>
 </div>
